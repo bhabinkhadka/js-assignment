@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="users">
+        <div class="users-heading">
+          <h1>Users</h1>
+        </div>
+        <div class="user-search">
+          <input type="text" id="input-search" placeholder="Search name" />
+        </div>
+        <div class="users-listing"></div>
+      </section>
+      <section class="messages">
+        <div class="users-heading">
+          <h1>Messages</h1>
+        </div>
+        <div class="message-listing"></div>
+        <div class="message-controls">
+          <input
+            id="input-message"
+            class="message"
+            type="text"
+            placeholder="Enter message"
+          />
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
